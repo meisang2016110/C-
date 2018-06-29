@@ -8,9 +8,9 @@ int main()
 		scanf("%d",&a[i]);
 	}
 	printf("\n");
-	printf("the original numbers:\n");
+	printf("The Orignal numbers:\n");
 	for(i=1;i<=10;i++)
-	   printf("%5d",a[i]);
+		printf("%5d",a[i]);
 	printf("\n");
 	for(i=1;i<=9;i++)
 	{
@@ -22,14 +22,14 @@ int main()
 				min=j;
 			}
 		}
-		temp=a[i];
-		a[i]=a[min];
-		a[min]=temp;
-		
+	   temp=a[i];
+       a[i]=a[min];
+	   a[min]=temp;
+			
 	}
-	printf("\n the sorted numbers:\n");
+	printf("\nThe sorted numbers:\n");
 	for(i=1;i<=10;i++)
-	    printf("%5d",a[i]);
+		printf("%5d",a[i]);
 	printf("\n");
 	return 0;
 }
